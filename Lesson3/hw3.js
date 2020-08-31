@@ -20,6 +20,7 @@
 
 // console.log(a)
 // console.log(b)
+
 //-----------------------------
 //2. Split String into Array
 // Using type conversion from String to Array
@@ -169,5 +170,7 @@ array = array.split(",")
 //11.2
 // array = array.filter( x => x%2!=0)
 // alert(array)
+
+ádfsdfsfasdfs
 
 
