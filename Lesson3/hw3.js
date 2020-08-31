@@ -171,6 +171,6 @@ array = array.split(",")
 // array = array.filter( x => x%2!=0)
 // alert(array)
 
-ádfsdfsfasdfs
+
 
 
