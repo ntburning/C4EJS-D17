@@ -6,11 +6,11 @@
 //-year, For example: 2012
 //-rate, For example: 8.4
 // Coding here
-let movie = {
-    title:"The dark night rises",
-    year: 2012,
-    rate: 8.4
-}
+// let movie = {
+//     title:"The dark night rises",
+//     year: 2012,
+//     rate: 8.4
+// }
 // console.log(movie)
 
 // Read 
@@ -42,4 +42,11 @@ let movie = {
 //     }
     
 // }
+
+// let test = {
+//     title: "abc",
+//     title: "xyz",
+// }
+// test.title = "hello"
+// console.log(test)
 

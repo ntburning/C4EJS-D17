@@ -2,6 +2,7 @@
 // let a = 5;
 // let b = 6;
 // let temp 
+
 // Huỷ cấu trúc - Destructuring
 //[a, b] = [b, a];
 
@@ -100,7 +101,7 @@
 
 
 //----------------------
-// 7. You are a shepherd who owns a flock of sheep
+// 8. You are a shepherd who owns a flock of sheep
 // Each of your sheep of your flock has varied sizes: 5 7 300 90 24 50 75
 // Create an array to represent the sizes of your flock, and log all of your flock size, expected screen output:
 // 5 7 300 90 24 50 75
@@ -151,8 +152,8 @@
 // }
 // console.log(names)
 //10.2
-// let result = names.map(x =>"<" + x + ">")
-// console.log(result)
+let result = names.map(x => "<" + x + ">")
+console.log(result)
 
 //11
 let array = prompt("Nhap day so:")
