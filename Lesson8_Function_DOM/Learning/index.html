@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Button click</p>
+    <div class="container">
+        <button class="button-click" onclick="decrease(-1)">-</button>
+        <h1 id="number">0</h1>
+        <button class="button-click" onclick="decrease(1)">+</button>  
+    </div>
+    <p>------------------------------</p>
+
+
+    <p>Timer stop</p>
+    <div class="container">
+        <input id="input" type="number"></input>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()" id="stop">Stop</button>
+    </div>
+    <p id="timer">Hello</p>
+
+    <p>------------------------------</p>
+    <p>Turn on / Turn off</p>
+    <img src="OFFbulb.jpg" id="bulb">
+    <button onclick="lightOn()">On</button>
+    <button onclick="lightOff()">Off</button>
+
+    <p>------------------------------</p>
+    <p>Máy tính</p>
+    <div class="row display">
+        <p id="operator"></p>
+        <p id="result">0</p>
+    </div>
+    <div class="row">
+        <button onclick="getValue('1')">1</button>
+        <button onclick="getValue('2')">2</button>
+        <button onclick="getValue('3')">3</button>
+        <button onclick="getValue('c')">c</button>
+    </div>
+    <div class="row">    
+        <button onclick="getValue('4')">4</button>
+        <button onclick="getValue('5')">5</button>
+        <button onclick="getValue('6')">6</button>
+        <button onclick="getValue('+')">+</button>
+    </div>
+    <div class="row">
+        <button onclick="getValue('7')">7</button>
+        <button onclick="getValue('8')">8</button>
+        <button onclick="getValue('9')">9</button>
+        <button onclick="getValue('-')">-</button>
+    </div>
+    <div class="row">
+        <button onclick="getValue('0')">0</button>
+        <button onclick="getValue('=')">=</button>
+        <button onclick="getValue('/')">/</button>
+        <button onclick="getValue('*')">*</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.inline{
+    display: flex;
+    margin: 20px;
+}
+
+.element{
+    width: 50px;
+    margin: 3px;
+}
+
+.inline > p{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

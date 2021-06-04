@@ -1,0 +1,95 @@
+html{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+}
+.nav_bar > p{
+    margin: 0;
+    line-height: 2rem;
+}
+.color_text{
+    color: aquamarine;
+    
+}
+.menu > li{
+    list-style-type: none;
+    margin: 0 0.5rem;
+    line-height: 2rem;
+}
+.sign_in{
+    color: aquamarine;
+    background-color: white;
+    border: 1px solid aquamarine;
+    border-radius: 16px;
+    font-size: 10px;
+    height: 1.5rem;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+}
+.main_container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.container{
+    background-color: blanchedalmond;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+}
+
+.container>p{
+    margin: 2px;
+}
+
+.inside_container{
+    border: 1px solid;
+    border-radius: 12px;
+    text-align: left;
+    padding: 1rem 2rem 0.3rem 1rem;
+
+}
+.inside_container > p{
+    margin: 1rem 0rem 0.3rem;
+}
+.typing{
+    width: 100%;
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+.remember_me{
+    display: flex;
+}
+.remember_me > p {
+    margin: 0;
+    line-height: 2rem;
+    width: 50px;
+    font-size: 8px;
+}
+.remember_me > input{
+    width: 8px;
+}
+.remember > p{
+    margin: 0;
+    line-height: 20px;
+    font-size: 8px;
+}
+.forgot{
+    color: aquamarine;
+    float: right;
+}
+
+.content{
+    margin: 1rem;
+}
